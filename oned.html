@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background-color;#f4f4f4;
+color:#333;
+text-align:center;
+margin:20px;
+}
+h1{
+color:#333;
+}
+.galary{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.gallery-item{
+margin:10px;
+}
+.gallery-item{
+margin:10px;
+}
+.gallery-item img{
+width:100px;
+height:100px;
+border-radius:5px;
+cursor:pointer;
+trasaction:transform 0.3s;
+}
+.gallery-item img:hover {
+transform:scale(1.1);
+}
+</style>
+</head>
+<body>
+<h1>Image Gallery</h1>
+<div class="gallery">
+<div class="gallery-item">
+<a href="images/image1.jpg"target="-blank">
+<img src="images/thumbnails/image1.jpg"alt="image1">
+</a>
+</div>
+<div class="gallery-item">
+<a href="images/image2.jpg"target="-blank">
+<img src="images/thumbnails/image.jpg"alt="image2">
+</a>
+</div>
+<div class="gallery-item">
+<a href=images/image3.jpg"target="-blank">
+<img src="images/thumbnails/image3.jpg"alt="image3">
+</a>
+</div>
+<div class="gallery_item">
+<a href="images/image4.jpg"target="_-blank">
+<img src="images/thumbnails/image4.jpg"alt="image4">
+</a>
+</div>
+<!--add more images as needed-->
+</div>
+</body>
+</html>
